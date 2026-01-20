@@ -3,15 +3,42 @@ title: 'Research'
 date: 2024-05-19
 type: landing
 
-design:
-  spacing: '5rem'
-  show_title: false
+sections:
+  - block: hero
+    design:
+      fullscreen: false
+      text_color_light: true
+      spacing:
+        padding: ["3rem", "0", "4rem", "0"]      
+      background:
+        image:
+          filename: LHC.jpg
+        overlay: 0.8
+    content:
+      title: "Neubauer Lab"
+      text: |
+        <p class="text-xl md:text-2xl lg:text-3xl font-light italic">
+          Aiming to understand the universe at its fundamental level and to accelerate scientific discovery through innovation
+        </p>
 
-build:
-  list: false   # this is needed to not show extraneous research block in collection
+#  - block: markdown
+#    design:
+#      container: full
+#      spacing:
+#        padding: ["3rem", "0", "3rem", "0"]
+#    content:
+#      text: |
+#        ### Research Focus
+#
+#        My research focuses on large-scale scientific data systems,
+#        AI-driven analysis, and high-energy physics instrumentation.
+#
+#        Current themes include anomaly detection, real-time inference,
+#        and collaborative decision-making in distributed experiments.
+#
+#        ![Research Figure](LHC.jpg)
 
 ########### Research Areas
-sections:
   - block: collection
     id: areas
     content:
@@ -26,12 +53,13 @@ sections:
     design:
       view: article-grid
       columns: 3
+      spacing:
+        padding: ["2rem", "0", "0", "0"]
       fill_image: true
       show_date: false
       show_read_time: false
       show_read_more: false
       flip_back: false
-
 
 ########### Artificial Intelligence
   - block: collection
@@ -102,28 +130,28 @@ sections:
       show_read_more: false
       flip_back: false
 
-# New block: Custom carousel section
-  - block: markdown
-    content:
-      title: Research Highlights
-      text: |-
-        Here are some key visuals from ongoing projects.
-
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="/uploads/slider/LHC.jpg" alt="LHC" loading="lazy"></div>
-            <div class="swiper-slide"><img src="/uploads/slider/Group2015_red.jpg" alt="Group 2015" loading="lazy"></div>
-            <div class="swiper-slide"><img src="/uploads/slider/Illinois-atlas-cern.jpg" alt="Illinois at CERN" loading="lazy"></div>
-          </div>
-          <div class="swiper-pagination"></div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-        </div>
-    design:
-      columns: '1'
-      spacing:
-        padding: ["2rem", "1rem", "2rem", "1rem"]
-      css_class: "text-center"
+## New block: Custom carousel section
+#  - block: markdown
+#    content:
+#      title: Research Highlights
+#      text: |-
+#        Here are some key visuals from ongoing projects.
+#
+#        <div class="swiper mySwiper">
+#          <div class="swiper-wrapper">
+#            <div class="swiper-slide"><img src="/uploads/slider/LHC.jpg" alt="LHC" loading="lazy"></div>
+#            <div class="swiper-slide"><img src="/uploads/slider/Group2015_red.jpg" alt="Group 2015" loading="lazy"></div>
+#            <div class="swiper-slide"><img src="/uploads/slider/Illinois-atlas-cern.jpg" alt="Illinois at CERN" loading="lazy"></div>
+#          </div>
+#          <div class="swiper-pagination"></div>
+#          <div class="swiper-button-next"></div>
+#          <div class="swiper-button-prev"></div>
+#        </div>
+#    design:
+#      columns: '1'
+#      spacing:
+#        padding: ["2rem", "1rem", "2rem", "1rem"]
+#      css_class: "text-center"
 
 ########### Team
   - block: markdown
@@ -183,4 +211,5 @@ sections:
       show_read_time: false
       show_date: true
       show_read_more: false
+
 ---
