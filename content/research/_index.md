@@ -1,9 +1,36 @@
 ---
 title: 'Research'
-date: 2024-05-19
+#title: "Neubauer Lab"
 type: landing
 
+#build:
+#  render: true
+#  list: false
+
 sections:
+#  - block: hero
+#    design:
+#      fullscreen: false
+#      text_color_light: true
+#      spacing:
+#        padding: ["3rem","0","2rem","0"]
+#      background:
+#        image:
+#          filename: LHC.jpg
+#        overlay: 0.8
+#    content:
+#      title: "Neubauer Lab"
+
+#  - block: markdown
+#    design:
+#      spacing:
+#        padding: ["0","0","3rem","0"]
+#    content:
+#      text: |
+#        <div class="max-w-3xl mx-auto text-xl md:text-2xl font-light italic text-center text-white">
+#        Aiming to understand the universe at its fundamental level and to accelerate scientific discovery through innovation
+#        </div>
+
   - block: hero
     design:
       fullscreen: false
@@ -48,6 +75,10 @@ sections:
           - research
         kinds:
           - section
+        exclude_ids:
+          - research
+      show_index: false
+      show_if_empty: false
       count: 0
       offset: 0
     design:
