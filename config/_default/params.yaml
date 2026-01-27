@@ -88,8 +88,8 @@ hugoblox:
     language_switcher: false
     # Call-to-action button
     cta:
-      enable: false
-      text: "Research Group"
+      enable: true
+      text: "Go to Neubauer Lab Page"
       url: "https://neubauer-group.github.io"
 
   # ────────────────────────────────────────────────────────────────────────────

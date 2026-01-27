@@ -1,19 +1,21 @@
 <style>
 /* Pull the entire cta-button-list block upward */
-  .blox-cta-button-list {
-    margin-top: -7rem !important;
-  }
+.blox-cta-button-list {
+  margin-top: -7rem !important;
+}
 </style>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Find all buttons/links inside cta-button-list blocks
-    const ctaLinks = document.querySelectorAll('.blox-cta-button-list a, .blox-cta-button-list button');
-    ctaLinks.forEach(link => {
-    if (link.href && (link.href.includes('/publications/') || link.href.includes('/blog/') || link.href.includes('/news/') || link.href.includes('/research/'))) {
-        link.setAttribute('target', '_self');
-        link.removeAttribute('rel');  // removes noopener/noreferrer if present
-}
-    });
+document.addEventListener('DOMContentLoaded', function() {
+  // Find all anchor tags and buttons inside cta-button-list blocks
+  const ctaElements = document.querySelectorAll('.blox-cta-button-list a, .blox-cta-button-list button');
+
+  ctaElements.forEach(el => {
+    // Only modify internal links (relative URLs)
+    if (el.href && el.href.startsWith(window.location.origin + '/')) {
+      el.setAttribute('target', '_self');
+      el.removeAttribute('rel');
+    }
   });
+});
 </script>

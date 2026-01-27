@@ -12,48 +12,19 @@ main:
     identifier: Ls8rDxWS
     url: /news/
     weight: 20  
-#  - name: Blogs
-#    identifier: E2rpTV48
-#    url: /blog/
-#    weight: 30
   - name: Experience
     identifier: cvYrQHgF
     url: /experience/
-    weight: 40
+    weight: 30
   - name: Awards
     identifier: HsSA-kTsw
     url: /awards/
-    weight: 50
-  - name: Vitae
-    identifier: leWy-AjU4
-    url: uploads/CV.pdf
-    weight: 60
+    weight: 40
   - name: Teaching
     identifier: kIoA-SMud
     url: /teaching/
-    weight: 70
-
+    weight: 50
   - name: Research
     identifier: research
-    url: /research/
-    weight: 80
-  - name: Particle Physics
-    parent: research
-    url: /research/#particle-physics
-    weight: 10
-  - name: Artifical Intelligence
-    parent: research
-    url: /research/#ai
-    weight: 20
-  - name: Quantum
-    parent: research
-    url: /research/#quantum
-    weight: 30
-  - name: People
-    parent: research
-    url: /research/#team
-    weight: 40
-  - name: Publications
-    parent: research
-    url: /publications/
-    weight: 50
+    url: https://neubauer-group.github.io
+    weight: 60

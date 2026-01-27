@@ -17,8 +17,10 @@ sections:
       text: ''
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Neubauer Lab
-        url: /research
+        text: Curriculum Vitae
+        url: uploads/CV.pdf
+        # target _self for no new tab, _blank for new tab
+        target: _blank
       headings:
         about: 'About Me'
         education: ''
