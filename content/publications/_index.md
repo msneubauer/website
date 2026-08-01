@@ -38,7 +38,7 @@ sections:
     content:
       buttons:
         - text: See all publications
-          url: /uploads/pubs.pdf
+          url: /uploads/mypubs.pdf
     design:
       columns: "1"
       padding: none
