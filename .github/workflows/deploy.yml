@@ -27,19 +27,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
           # Fetch history for Hugo's .GitInfo and .Lastmod
         fetch-depth: 0
 
     - name: Setup Node.js
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v6
       with:
         node-version: ${{ env.NODE_VERSION }}
 
     - name: Setup pnpm
       if: hashFiles('package.json') != ''
-      uses: pnpm/action-setup@v4
+      uses: pnpm/action-setup@v6
 
     - name: Get Hugo Version
       id: hugo-version
@@ -74,7 +74,7 @@ jobs:
           ${{ runner.os }}-hugo-deps-
 
       # Cache Hugo resources (processed images, CSS) - invalidates only when assets/config change
-    - uses: actions/cache@v4
+    - uses: actions/cache@v5
       with:
         path: resources/
         key: ${{ runner.os }}-hugo-resources-${{ hashFiles('assets/**/*', 'config/**/*',
@@ -84,7 +84,7 @@ jobs:
 
     - name: Setup Pages
       id: pages
-      uses: actions/configure-pages@v5
+      uses: actions/configure-pages@v6
 
     - name: Build with Hugo
       env:
@@ -102,7 +102,7 @@ jobs:
         fi
 
     - name: Upload artifact
-      uses: actions/upload-pages-artifact@v4
+      uses: actions/upload-pages-artifact@v5
       with:
         path: ./public
 
@@ -122,4 +122,4 @@ jobs:
     steps:
     - name: Deploy to GitHub Pages
       id: deployment
-      uses: actions/deploy-pages@v4
+      uses: actions/deploy-pages@v5
