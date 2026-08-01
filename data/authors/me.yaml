@@ -117,6 +117,12 @@ languages:
     level: 5
     label: "Native"
 awards:
+  - title: "Arnold T. Nordsieck Award"
+    awarder: "University of Illinois, Urbana-Champaign"
+    date: "2026-04-01"
+    summary: "*The Nordsieck Award, which was endowed by Professor Arnold T. Nordsieck's family in his honor, recognizes members of our faculty for their excellent teaching, broadly defined. Winners are selected for innovations to undergraduate courses, for outstanding classroom teaching, for authorship of authoritative textbooks, and for superb graduate mentoring*."
+    url: https://physics.illinois.edu/people/excellent-teachers/nordsieck-award
+    icon: "hero/trophy"
   - title: "Breakthrough Prize in Fundamental Physics"
     awarder: "Breakthough Foundation"
     date: "2025-04-01"
