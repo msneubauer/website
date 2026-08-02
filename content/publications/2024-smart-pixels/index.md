@@ -1,6 +1,5 @@
 ---
-title: 'Smart pixel sensors: towards on-sensor filtering of pixel clusters with deep
-  learning'
+title: 'Smart pixel sensor filtering with deep learning'
 
 # Authors
 # A YAML list of author names
@@ -64,10 +63,11 @@ abstract: 'Highly granular pixel detectors allow for increasingly precise measur
 # Summary. An optional shortened abstract.
 summary: ''
 
-tags: []
+tags:
+- Artificial Intelligence
 
 # Display this page in a list of Featured pages?
-featured: false
+featured: true
 
 # Links
 url_pdf: ''
@@ -98,5 +98,14 @@ image:
 #   Otherwise, set `projects: []`.
 projects: []
 ---
+This open-access paper explores the use of deep learning for **on-sensor data reduction** in highly granular silicon pixel detectors intended for future high-luminosity colliders.
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
+## Key points
+
+- Next-generation pixel detectors will produce data rates far exceeding those expected at the High-Luminosity LHC, necessitating intelligent filtering close to the sensor.
+- The authors develop a neural network that uses the shape of charge clusters deposited in small pixel arrays to extract properties of the traversing charged particle and filter out hits from low-momentum tracks.
+- In this first demonstration, the network reduces detector data volume by **57.1%–75.7%**.
+- The algorithm is designed and simulated as a custom readout integrated circuit in 28 nm CMOS technology, expected to operate at less than 300 μW with an area of less than 0.2 mm².
+- The temporal development of charge clusters is also investigated as a path to further performance gains, along with discussion of future algorithmic and technological improvements.
+
+Published 14 August 2024 in *Machine Learning: Science and Technology*.
