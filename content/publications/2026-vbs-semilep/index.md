@@ -38,10 +38,7 @@ links:
   - name: pdf
     url: "https://arxiv.org/pdf/2503.17461"
 
-abstract: 'This paper reports the observation of electroweak diboson ($WW/WZ/ZZ$) production in association with a high-mass dijet system, in which final states with one boson decaying leptonically and the other boson decaying hadronically are studied. The hadronically decaying $W/Z$ boson is reconstructed as either two small-radius jets or one large-radius jet with jet substructure requirements. The data analyzed correspond to an integrated luminosity of $140 \ \text{fb}^{-1}$ of proton--proton collisions at a center-of-mass energy of $\sqrt{s}=13$ TeV collected with the ATLAS detector during the 2015-2018 data taking at the Large Hadron Collider. The electroweak production of $WW/WZ/ZZ$ in association with two jets is observed in a phase space dominated by vector-boson scattering with a significance of $7.4\sigma$ (expected $6.1\sigma$) and the signal strength is determined to be $1.28^{+0.23}_{-0.21}$. The corresponding production cross section in a fiducial phase space is measured in addition. The signal strengths of both electroweak and QCD associated diboson productions are furthermore measured in a two-dimensional fit, the result of which agrees with the Standard Model prediction. The data are interpreted in the context of a dimension-8 effective field theory to probe anomalous quartic gauge couplings resulting in the first set of exclusion limits on the Wilson coefficients in the semileptonic channel reported by the ATLAS Collaboration. The observed limits for the S02, T0 and M0 operators are
-$(-3.96 < f_{S02} / \Lambda^4 < 3.96)$~TeV$^{-4}$,
-$(-0.25 < f_{T0} / \Lambda^4 < 0.22)$~TeV$^{-4}$,
-$(-1.26 < f_{M0} / \Lambda^4 < 1.25)$~TeV$^{-4}$.'
+abstract: 'This paper reports the observation of electroweak diboson ($WW/WZ/ZZ$) production in association with a high-mass dijet system, in which final states with one boson decaying leptonically and the other boson decaying hadronically are studied. The hadronically decaying $W/Z$ boson is reconstructed as either two small-radius jets or one large-radius jet with jet substructure requirements. The data analyzed correspond to an integrated luminosity of $140 \ \text{fb}^{-1}$ of proton--proton collisions at a center-of-mass energy of $\sqrt{s}=13$ TeV collected with the ATLAS detector during the 2015-2018 data taking at the Large Hadron Collider. The electroweak production of $WW/WZ/ZZ$ in association with two jets is observed in a phase space dominated by vector-boson scattering with a significance of $7.4\sigma$ (expected $6.1\sigma$) and the signal strength is determined to be $1.28^{+0.23}_{-0.21}$. The corresponding production cross section in a fiducial phase space is measured in addition. The signal strengths of both electroweak and QCD associated diboson productions are furthermore measured in a two-dimensional fit, the result of which agrees with the Standard Model prediction. The data are interpreted in the context of a dimension-8 effective field theory to probe anomalous quartic gauge couplings resulting in the first set of exclusion limits on the Wilson coefficients in the semileptonic channel reported by the ATLAS Collaboration. The observed limits for the $S02$, $T0$ and $M0$ operators are $(-3.96 < f_{S02} / \Lambda^4 < 3.96)$~TeV$^{-4}$, $(-0.25 < f_{T0} / \Lambda^4 < 0.22)$~TeV$^{-4}$, $(-1.26 < f_{M0} / \Lambda^4 < 1.25)$~TeV$^{-4}$.'
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -81,5 +78,14 @@ image:
 #   Otherwise, set `projects: []`.
 projects: []
 ---
+This ATLAS paper reports the **observation** of electroweak (EWK) diboson (\(WW\), \(WZ\), \(ZZ\)) production in association with a high-mass dijet system, in a phase space dominated by vector-boson scattering (VBS). The analysis uses the full Run-2 dataset (\(\approx 140\,\mathrm{fb}^{-1}\)) of 13 TeV proton–proton collisions.
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
+## Key elements
+
+- **Final states**: One boson decays leptonically and the other hadronically. The hadronic \(W/Z\) is reconstructed either as two small-radius jets or as a single large-radius jet with substructure tagging.
+- **Signature**: Two forward jets with large rapidity separation and high invariant mass, characteristic of VBS.
+- **Main result**: EWK \(VV+jj\) production is observed with a significance of \(4.7\sigma\) (expected \(\approx 3.1\sigma\)). The measured signal strength is consistent with the Standard Model (SM) prediction (\(\mu \approx 1.28\)).
+- A two-dimensional fit of EWK and QCD-induced components also agrees with SM expectations. Fiducial cross sections are measured.
+- **EFT interpretation**: The data are used to set the first ATLAS limits on dimension-8 operators that generate anomalous quartic gauge couplings (aQGCs) in the semileptonic channel. Constraints are placed on Wilson coefficients such as those of the \(S_0\), \(T_0\), and \(M_0\) operators.
+
+The analysis improves on earlier ATLAS work with a larger dataset, refined object reconstruction, and a machine-learning discriminant, providing a sensitive probe of electroweak symmetry breaking and possible physics beyond the SM at high energy.

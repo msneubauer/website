@@ -82,5 +82,14 @@ image:
 #   Otherwise, set `projects: []`.
 projects: []
 ---
+This is the peer-reviewed, published version of the work previously available as arXiv:2501.05656. It presents a detailed study of **evidential deep learning (EDL)** for uncertainty quantification (UQ) and out-of-distribution (OOD)/anomaly detection in deep neural networks used for jet identification (tagging) at the LHC.
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
+## Key points
+
+- Bayesian and ensemble methods for UQ are computationally costly. EDL provides a lighter alternative by treating learning as an *evidence-acquisition* process and modeling epistemic uncertainty via a Dirichlet distribution over class probabilities.
+- The authors integrate EDL with the Particle Flow Interaction Network (PFIN) and evaluate it on public jet-classification benchmark datasets.
+- They study hyperparameter optimization, per-class uncertainty distributions, comparisons with Bayesian ensembles, mapping of uncertainty onto latent spaces, and the application of EDL to anomaly detection.
+- The work identifies limitations of the standard EDL formulation for anomaly detection and proposes a more effective way to extract uncertainty from EDL.
+- Overall, it offers a methodological framework for interpreting EDL in jet-tagging models and insights that may improve EDL-based UQ for classification tasks in high-energy physics.
+
+Published 8 July 2025 in the “Focus on Explainable Machine Learning in Sciences” collection of *Machine Learning: Science and Technology* (Open Access).
