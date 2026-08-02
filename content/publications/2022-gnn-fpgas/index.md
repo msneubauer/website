@@ -1,5 +1,5 @@
 ---
-title: Graph Neural Networks for Charged Particle Tracking on FPGAs
+title: Graph Neural Networks for Particle Tracking on FPGAs
 
 # Authors
 # A YAML list of author names
@@ -56,10 +56,11 @@ abstract: 'The determination of charged particle trajectories in collisions at t
 # Summary. An optional shortened abstract.
 summary: ''
 
-tags: []
+tags:
+- Artificial Intelligence
 
 # Display this page in a list of Featured pages?
-featured: false
+featured: true
 
 # Links
 url_pdf: ''
@@ -90,5 +91,13 @@ image:
 #   Otherwise, set `projects: []`.
 projects: []
 ---
+This original research article presents an automated workflow for deploying **graph neural networks (GNNs)** for charged particle tracking onto field-programmable gate arrays (FPGAs).
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
+## Key points
+
+- Charged particle tracking at the LHC (especially under high-luminosity conditions) is computationally challenging. GNNs have shown promise by encoding tracker hits as graphs (nodes = hits, edges = possible track segments) and classifying edges as true or fake.
+- The authors integrate an automated translation tool into the **hls4ml** framework to convert Interaction Network–based GNNs into FPGA firmware.
+- Models are trained on the TrackML challenge dataset and implemented targeting different graph sizes, task complexities, and latency/throughput requirements.
+- The work demonstrates feasible FPGA designs and aims to enable GNN-based tracking at the trigger level for HL-LHC experiments, where strict sub-microsecond latency constraints apply.
+
+Published 23 March 2022 in *Frontiers in Big Data* (section: Big Data and AI in High Energy Physics).
