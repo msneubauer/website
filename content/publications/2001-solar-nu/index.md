@@ -1,5 +1,5 @@
 ---
-title: Solar Neutrino Problem Solved
+title: Solution to the Solar Neutrino Problem
 
 # Authors
 # A YAML list of author names

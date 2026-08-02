@@ -19,6 +19,7 @@ sections:
           - news
         kinds:
           - section
+      count: 0
     design:
       view: article-grid
       columns: 4

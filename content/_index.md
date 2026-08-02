@@ -107,6 +107,7 @@ sections:
         kinds:
           - section
         featured_only: true
+      count: 0
     design:
       view: article-grid
       columns: 4
