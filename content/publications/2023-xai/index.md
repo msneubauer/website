@@ -82,4 +82,14 @@ projects: []
 
 ---
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
+This open-access paper presents a systematic study of the **interpretability** of deep neural network (DNN) models used for top-quark jet tagging in high-energy proton–proton collisions at the LHC.
+
+## Key points
+
+- The authors review a subset of existing top-tagger models (primarily MLP-based) and apply multiple quantitative explainable AI (XAI) methods to identify which input features contribute most to classifying jets originating from top-quark decays versus QCD background.
+- They examine how feature importance varies across different XAI metrics, the impact of feature correlations on explainability, and how information is encoded in the models’ latent-space representations (including correlations with physically meaningful quantities).
+- Major pitfalls of existing XAI techniques are identified, along with ways to obtain consistent and meaningful interpretations.
+- Neural activation pattern diagrams are used to visualize information flow through hidden layers, enabling model simplification, re-optimization, and hyperparameter tuning.
+- Building on these interpretability insights, the authors propose the **Particle Flow Interaction Network (PFIN)** model and demonstrate that interpretability-inspired architectural improvements can enhance top-tagging performance.
+
+Published 11 July 2023 in *Machine Learning: Science and Technology*. This work laid the groundwork for the later evidential deep learning studies by the same group.
