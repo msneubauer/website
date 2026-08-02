@@ -1,6 +1,5 @@
 ---
-title: Observation of a new particle in the search for the Standard Model Higgs boson
-  with the ATLAS detector at the LHC
+title: Higgs Boson Discovery
 
 # Authors
 # A YAML list of author names
@@ -38,28 +37,16 @@ links:
   - name: pdf
     url: "https://arxiv.org/pdf/1207.7214.pdf"
 
-abstract: 'A search for the Standard Model Higgs boson in
-  proton-proton collisions with the ATLAS detector at the LHC is
-  presented.  The datasets used correspond to integrated luminosities
-  of approximately 4.8~\ifb\ collected at $\sqrt{s}=7$\,TeV in 2011 and 5.8~\ifb\
-  at $\sqrt{s}=8$\,TeV in 2012.  Individual searches in the channels
-  \htollll, \hgg\ and $\hWWenmun$ in the
-  8\,TeV data are combined with previously published results of
-  searches for $H{\rightarrow\,}ZZ^{(*)}$, $WW^{(*)}$, \bbbar\ and
-  $\tau^+\tau^-$ in the 7\,TeV data and results from improved analyses of the \htollll\ and
-  \hgg\  channels in the 7\,TeV data.  Clear evidence
-  for the production of a neutral boson with a measured mass of $\massresultStatSys$ 
-  is presented. This observation, which has a significance of 5.9 standard deviations,
-  corresponding to a background fluctuation probability of $1.7\times 10^{-9}$, 
-  is compatible with the production and decay of the Standard Model Higgs boson'
+abstract: 'A search for the Standard Model Higgs boson in proton-proton collisions with the ATLAS detector at the LHC is presented.  The datasets used correspond to integrated luminosities of approximately 4.8 $fb^{-1}$ collected at $\sqrt{s}=7$ TeV in 2011 and 5.8 $fb^{-1}$ at $\sqrt{s}=8$ TeV in 2012. Individual searches in the channels $h\to \ell\ell\ell\ell$, $h\to\gamma\gamma$ and $h\to WW\to e\nu\mu\nu$ in the 8 TeV data are combined with previously published results of searches for $H{\rightarrow\,}ZZ^{(*)}$, $WW^{(*)}$, $b\bar{b}$ and $\tau^+\tau^-$ in the 7\,TeV data and results from improved analyses of the $h\to \ell\ell\ell\ell$ and $h\to\gamma\gamma$ channels in the 7 TeV data. Clear evidence for the production of a neutral boson with a measured mass of $26.0 \pm 0.4(stat) \pm 0.4(sys)$ GeV is presented. This observation, which has a significance of 5.9 standard deviations, corresponding to a background fluctuation probability of $1.7\times 10^{-9}$, is compatible with the production and decay of the Standard Model Higgs boson'
 
 # Summary. An optional shortened abstract.
 summary: ''
 
-tags: []
+tags:
+- High Energy Physics
 
 # Display this page in a list of Featured pages?
-featured: false
+featured: true
 
 # Links
 url_pdf: ''
@@ -90,5 +77,13 @@ image:
 #   Otherwise, set `projects: []`.
 projects: []
 ---
+This landmark paper reports the **observation of a new particle** consistent with the Standard Model Higgs boson in proton–proton collisions recorded by the ATLAS detector at the LHC.
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
+## Key points
+
+- Datasets correspond to integrated luminosities of approximately 4.8 fb⁻¹ at √s = 7 TeV (2011) and 5.8 fb⁻¹ at √s = 8 TeV (2012).
+- Results from individual searches in the channels \(H \to ZZ^{(*)} \to \ell\ell\ell\ell\), \(H \to \gamma\gamma\), and \(H \to WW^{(*)} \to e\nu\mu\nu\) (8 TeV data) are combined with previously published 7 TeV results (including \(H \to ZZ^{(*)}\), \(WW^{(*)}\), \(b\bar{b}\), and \(\tau^+\tau^-\)) and improved analyses of the \(H \to ZZ^{(*)} \to \ell\ell\ell\ell\) and \(H \to \gamma\gamma\) channels.
+- Clear evidence is presented for the production of a neutral boson with a measured mass of \(126.0 \pm 0.4\,\text{(stat)} \pm 0.4\,\text{(sys)}\) GeV.
+- The observation has a significance of **5.9 standard deviations** (background fluctuation probability of \(1.7 \times 10^{-9}\)) and is compatible with the production and decay of the Standard Model Higgs boson.
+
+Published in *Physics Letters B* in 2012; this is one of the two papers (together with the corresponding CMS result) that announced the discovery of the Higgs boson.
