@@ -167,5 +167,16 @@ image:
 #   Otherwise, set `projects: []`.
 projects: []
 ---
+This open-access community review report discusses **fast machine learning (ML)** in science—the integration of powerful ML methods into the real-time experimental data-processing loop to accelerate discovery.
 
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
+## Key points
+
+- Builds on two workshops organized by the Fast ML for Science community.
+- Covers three main areas:
+  1. **Applications** of fast ML across multiple scientific domains (particle physics, astronomy, materials science, neuroscience, etc.).
+  2. **Techniques** for training and implementing performant, resource-efficient ML algorithms.
+  3. **Computing architectures, platforms, and technologies** for deploying these algorithms (including FPGAs, GPUs, and emerging hardware).
+- Highlights overlapping challenges across domains and opportunities for shared solutions.
+- Provides numerous examples and pointers to source material, aiming to inspire scientific discovery through integrated, accelerated ML approaches.
+
+Published 12 April 2022 in *Frontiers in Big Data* (section: Big Data and AI in High Energy Physics). A corrigendum was later issued.
