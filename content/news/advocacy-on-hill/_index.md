@@ -1,5 +1,5 @@
 ---
-title: Neubauer Advocates for Science
+title: Neubauer Advocates for Science during APS Visit to Congress
 summary: 
 date: 2026-02-06
 featured: true
