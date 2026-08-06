@@ -127,15 +127,6 @@ npx hugoblox create site --template academic-cv
 
 ---
 
-## FAQ
-
-- Do I need to know Hugo? No — you can edit visually or write Markdown.
-- Can I host for free? Yes — GitHub Pages/Netlify are supported.
-- Can I export/migrate later? Yes — your site is just files.
-- Can I cancel Pro anytime? Yes.
-
----
-
 ## Community & Support
 
 - 💬 [**Discord Community**](https://discord.gg/z8wNYzb)
