@@ -14,7 +14,7 @@ sections:
   - block: collection
     content:
       title: Recently Developed Courses
-      text: Select a course below to access the full materials, lectures, and resources.
+      text: Select a course below to access materials, lectures, and resources.
       filters:
         folders:
           - teaching
